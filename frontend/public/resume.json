@@ -1,0 +1,57 @@
+{
+    "name": "Godwill Ocheme",
+    "location": "El Paso, Texas 79936",
+    "contact": {
+      "phone": "(915) 706-6202",
+      "email": "alozeus1@gmail.com",
+      "profile_url": "https://bold.pro/my/godwill-ocheme/371"
+    },
+    "summary": "Experienced and detailed IT specialist with 6+ years working as a Linux Administrator, DevOps and Cloud operations. Proficient in CI/CD pipelines, AWS, Terraform, Kubernetes, Jenkins, and more.",
+    "skills": [
+      "DockerHub", "Hardware and software installation", "Testing and maintenance",
+      "Ansible", "Terraform", "GitHub", "Git", "Linux", "Docker", "Kubernetes", "AWS",
+      "Grafana", "Prometheus", "Nagios", "Datadog", "Jenkins", "ArgoCD", "Sonarqube",
+      "JIRA", "Teams", "Slack", "Bash shell", "Python", "Project planning", "Cost management"
+    ],
+    "experience": [
+      {
+        "position": "DevOps Engineer",
+        "company": "Applied-Insight Solutions",
+        "location": "Hanover",
+        "start_date": "05/2023",
+        "end_date": "Current",
+        "responsibilities": [
+          "Engineered and implemented a shell script for automated user account management across servers.",
+          "Enhanced system access and security through automation of user creation, deletion, password expiration, and SSH setup."
+        ]
+      },
+      {
+        "position": "DevOps Engineer",
+        "company": "EK Tech Software Solutions",
+        "location": "Texas",
+        "start_date": "08/2019",
+        "end_date": "04/2023",
+        "responsibilities": [
+          "Designed and developed robust solutions for software development and testing.",
+          "Managed IAM integration with Okta and Active Directory.",
+          "Integrated Cloudtamer and established AWS roles for GovCloud accounts.",
+          "Developed Kubernetes cluster architecture for high availability and security.",
+          "Implemented CI/CD pipeline using Jenkins, Docker, and Kubernetes.",
+          "Migrated legacy applications to Kubernetes using Helm.",
+          "Enhanced Terraform scripts for dynamic subnet generation across AWS availability zones."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Biological and Physical Sciences",
+        "institution": "Benue State University, Makurdi",
+        "completion_date": "11/2010"
+      },
+      {
+        "certificate": "Certificate in Computer Operations and Control (Information Technology)",
+        "institution": "Sacred Heart Computer Vocational Institute, Lagos",
+        "completion_date": "11/2003"
+      }
+    ]
+  }

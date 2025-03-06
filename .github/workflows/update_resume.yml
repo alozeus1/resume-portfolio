@@ -1,0 +1,17 @@
+name: Update Resume PDF
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Convert Resume to PDF
+        run: |
+          sudo apt install pandoc
+          pandoc frontend/public/resume.json -o resume.pdf
+      - name: Upload PDF to GitHub Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: resume
+          path: resume.pdf
